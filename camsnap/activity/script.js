@@ -1,4 +1,3 @@
-  
 let videoElement = document.querySelector("video");
 let recordButton = document.querySelector(".inner-record");
 let capturePhoto = document.querySelector(".inner-capture");
@@ -6,6 +5,11 @@ let filters = document.querySelectorAll(".filter");
 let filterSelected = "none";
 let zoomIn = document.querySelector(".zoomIn");
 let zoomOut = document.querySelector(".zoomOut");
+let galleryBtn = document.querySelector(".gallery-btn");
+
+galleryBtn.addEventListener("click" , function(){
+  window.location.assign("gallery.html");
+})
 
 let minZoom = 1;
 let maxZoom = 3.1;
