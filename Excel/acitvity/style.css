@@ -1,0 +1,24 @@
+.{
+    box-sizing: border-box ;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.Menu-Option{
+
+height: 50px;
+
+background: aqua;
+}
+.formula-tab{
+    height: 30px;}
+.cell{
+
+background: azure;
+
+height:calc(100vh - 110px);
+}
+.sheet{
+    
+height: 30px;
+}
