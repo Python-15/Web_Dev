@@ -78,3 +78,16 @@ body{
     text-align: -webkit-center;
     display: block;
 }
+.Excle {
+    position: absolute;
+    left: 15px;
+    top: 420px;
+    cursor: pointer;
+    z-index: 110;
+    padding: 8px;
+    width: 60px;
+    color: white;
+    font-size: larger;
+    text-align: -webkit-center;
+    display: block;
+}
